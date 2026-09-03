@@ -1,0 +1,126 @@
+# ==========================================
+# Store Rating Platform - Git Ignore
+# ==========================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables / Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+
+# Runtime / Temporary
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+
+# Build Output
+dist/
+build/
+out/
+.vite/
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Prisma / SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# IDE / Editors
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.sublime-workspace
+*.sublime-project
+
+# Local AI / Development Tools
+.agents/
+.claude/
+.cursor/
+.devin/
+
+# Uploads
+uploads/
+server/uploads/
+client/uploads/
+
+# Generated Files
+generated/
+generated-files/
+*.generated.*
+
+# Certificates / Private Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Local Configuration
+*.local
+
+# Docker
+docker-compose.override.yml
+
+# Deployment
+.vercel/
+.netlify/
+.firebase/
+
+# Backup Files
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Security / Credentials
+credentials.json
+service-account.json
+secrets.json
+*.secret
+*.token
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
